@@ -57,7 +57,7 @@ public class main {
 		Resta resta= new Resta();
 		Suma suma=new Suma();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Que desea hacer hoy señor?");
+		System.out.println("Que desea hacer hoy sra?");
 		System.out.println("1.Sumar.");
 	    System.out.println("2.Restar.");
 	    System.out.println("3.Salir.");
