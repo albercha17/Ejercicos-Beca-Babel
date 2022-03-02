@@ -66,7 +66,7 @@ public class main {
 	    while(Integer.parseInt(z)!=3) {
 	    if(Integer.parseInt(z)==1) {
 	    	sumar(suma);
-	    	System.out.println("Que desea hacer?");
+	    	System.out.println("Que desea usted hacer?");
 			System.out.println("1.Sumar.");
 		    System.out.println("2.Restar.");
 		    System.out.println("3.Salir.");
