@@ -58,6 +58,7 @@ public class main {
 		Suma suma=new Suma();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Que desea hacer hoy sra?");
+		System.out.println("Que desea hacer hoy sr/sra?");
 		System.out.println("1.Sumar.");
 	    System.out.println("2.Restar.");
 	    System.out.println("3.Salir.");
@@ -66,7 +67,7 @@ public class main {
 	    while(Integer.parseInt(z)!=3) {
 	    if(Integer.parseInt(z)==1) {
 	    	sumar(suma);
-	    	System.out.println("Que desea usted hacer hoy?");
+	    	System.out.println("Que desea usted hacer?");
 			System.out.println("1.Sumar.");
 		    System.out.println("2.Restar.");
 		    System.out.println("3.Salir.");
