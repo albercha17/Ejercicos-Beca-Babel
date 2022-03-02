@@ -73,7 +73,7 @@ public class main {
 	     	z = sc.nextLine();}
 	    else if(Integer.parseInt(z)==2) {
 	    	restar ( resta);
-	    	System.out.println("Que desea hacer?");
+	    	System.out.println("Que desea hacer hoy?");
 			System.out.println("1.Sumar.");
 		    System.out.println("2.Restar.");
 		    System.out.println("3.Salir.");
