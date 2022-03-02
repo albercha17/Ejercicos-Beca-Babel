@@ -70,7 +70,7 @@ public class main {
 			System.out.println("1.Sumar.");
 		    System.out.println("2.Restar.");
 		    System.out.println("3.Salir.");
-		    System.out.println("4.Algo ha pasado.");
+		    System.out.println("4.Error.");
 	     	z = sc.nextLine();}
 	    else if(Integer.parseInt(z)==2) {
 	    	restar ( resta);
