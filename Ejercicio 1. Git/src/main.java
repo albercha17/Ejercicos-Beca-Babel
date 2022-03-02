@@ -54,10 +54,10 @@ public class main {
 	}
 	
 	public static void main (String[] args) {
-		Resta resta=new Resta();
+		Resta resta= new Resta();
 		Suma suma=new Suma();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Que desea hacer?");
+		System.out.println("Que desea hacer hoy?");
 		System.out.println("1.Sumar.");
 	    System.out.println("2.Restar.");
 	    System.out.println("3.Salir.");
