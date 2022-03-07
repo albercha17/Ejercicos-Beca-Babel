@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(182, 226, 255);
+}
+#cabezera{
+    background-color: rgb(94, 137, 253);
+    text-align: center;
+    width: 99%;
+    position: fixed;
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+}
+#cuerpo{
+    width: 99%;
+    padding-bottom: 40px;
+    float: left;
+    margin-top: 140px;
+}
+#logo{
+    width: 80px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#titulo{
+    float:left;
+    font-size: 50px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+h2{
+    font-size: 35px;
+    margin-left:40px;
+}
+li{
+    font-size: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+table{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    color: aliceblue;
+    width: 1200px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(86, 131, 255);
+}
+#RankingInfo{
+    font-size: 30px;
+    text-align: center;
+}
+#Ranking{
+    text-align: center;
+    font-size: 50px;
+}
+.center{
+    text-align: center;
+    margin-left: 300px;
+}

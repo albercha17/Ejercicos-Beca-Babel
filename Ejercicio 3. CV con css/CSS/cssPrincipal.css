@@ -61,16 +61,26 @@ body{
 }
 .info{
     font-size: 16px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 20px;
+    line-height: 30px ;
 }
 
-.izq{
+.informacion{
     float: left;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 18%;
 }
 .der{
     margin-right: 160px;
 }
 .listas{
     margin-bottom: 15px;
+}
+.cuadros{
+    width: 45%;
+    float: left;
+    padding: 20px;
 }
