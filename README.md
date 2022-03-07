@@ -8,7 +8,7 @@ En este repositorio subire todos los ejercicios que hagamos en la beca, ordenand
 
 Ejercicio de prueba donde probamos a crear ramas, probando merge y viendo los conflictos al combinar ramas.
 
-## Ejercicio 2. Html
+## [Ejercicio 2. Html](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%202.%20Html)
 
 Ejercicio donde crearemos una pagina html y css muy muy basica. En este caso sera una pagina de padel donde probar aspectos html y css.
 
