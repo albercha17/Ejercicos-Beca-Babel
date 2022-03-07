@@ -2,7 +2,7 @@
 
 
 Ejercicios de la beca de Babel, BabelCamp 7.0.
-En este repositorio subire todos los ejercicios que hagamos en la beca, ordenandolos por carpetas con sus nombres.
+En este repositorio subire todos los ejercicios que hagamos en la beca, ordenandolos por carpetas y una breve descripción.
 
 ## [Ejercicio 1. Git](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%201.%20Git)
 
