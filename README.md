@@ -12,6 +12,6 @@ Ejercicio de prueba donde probamos a crear ramas, probando merge y viendo los co
 
 Ejercicio donde crearemos una pagina html y css muy muy basica. En este caso sera una pagina de padel donde probar aspectos html y css.
 
-## Ejercicio 3. CV con css
+## [Ejercicio 3. CV con css](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%203.%20CV%20con%20css)
 
 Ejercicio para seguir probando css y html, donde crearemos nuestro propio curriculum.
