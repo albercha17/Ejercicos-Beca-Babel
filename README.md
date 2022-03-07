@@ -1,4 +1,5 @@
-# Welcome to StackEdit!
+# Ejercicos Beca Babel
+
 
 Ejercicios de la beca de Babel, BabelCamp 7.0.
 En este repositorio subire todos los ejercicios que hagamos en la beca, ordenandolos por carpetas con sus nombres.
