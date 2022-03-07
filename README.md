@@ -4,7 +4,7 @@
 Ejercicios de la beca de Babel, BabelCamp 7.0.
 En este repositorio subire todos los ejercicios que hagamos en la beca, ordenandolos por carpetas con sus nombres.
 
-## Ejercicio 1. Git
+## Ejercicio 1. Git [Handlebars templates](http://handlebarsjs.com/),
 
 Ejercicio de prueba donde probamos a crear ramas, probando merge y viendo los conflictos al combinar ramas.
 
