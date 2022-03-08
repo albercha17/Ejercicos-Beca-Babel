@@ -1,9 +1,38 @@
+*{
+    /*
+     outline: 1px solid red;
+    */
+   
+}
+.parrafo{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.bestias{
+    font-size: 27px;
+    color: red;
+}
+.parrafo_inline{
+    display: inline;
+}
+.enlaces{
+    font-size: 30px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 80px;
+    border-color: aliceblue;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 50px;
+}
+.enlaces:visited{
+    color: rgb(236, 236, 236);
+}
 body{
     background-color: rgb(182, 226, 255);
 }
 #cabezera{
     background-color: rgb(94, 137, 253);
-    text-align: center;
     width: 99%;
     position: fixed;
     border-width: 2px;
@@ -44,20 +73,41 @@ table{
     border-color: rgb(0, 0, 0);
     border-style: solid;
     color: aliceblue;
-    width: 1200px;
+    width: 1100px;
     text-align: center;
     font-size: 30px;
     background-color: rgb(86, 131, 255);
 }
 #RankingInfo{
     font-size: 30px;
-    text-align: center;
+    margin-left: 35%;
 }
 #Ranking{
-    text-align: center;
+    margin-left: 34%;
     font-size: 50px;
 }
 .center{
+    margin-left: 30%;
+}
+#formulario{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: x-large;
+}
+#organizar{
+    font-size: 40px;
     text-align: center;
-    margin-left: 300px;
+}
+#infoOrg{
+    font-size: 30px;
+    text-align: center;
+}
+.eleccion{
+    display: inline;
+}
+.centrado{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }

@@ -1,9 +1,16 @@
+*{
+    /*
+    
+    outline: 1px solid red;   
+    */
+}
 #cabezera{
     text-align: center;
     font-size: 40px;
 }
 body{
     background-image: url("http://www.geocities.ws/mercuriusyelrincon/Fondo_C.gif");
+    
 }
 #caja{
     border-color: rgb(0, 0, 0);
@@ -15,14 +22,17 @@ body{
 }
 #encabezado{
     background-color: rgb(106, 177, 235);
-    float: right;
     width: 100%;
+    height:300px;
     
 }
 .iconos{
+    background-color: rgb(106, 177, 235);
+    display: inline;
     width: 30px;
-    float: left;
     margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 #foto{
     border-radius:150px;
@@ -60,17 +70,17 @@ body{
     
 }
 .info{
-    font-size: 16px;
-    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 40px;
     margin-top: 20px;
     line-height: 30px ;
+    margin-right: 40px;
 }
 
 .informacion{
-    float: left;
+    display: inline;
     font-size: 16px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 18%;
 }
 .der{
@@ -82,5 +92,7 @@ body{
 .cuadros{
     width: 45%;
     float: left;
-    padding: 20px;
+}
+
+#Perfil{
 }
