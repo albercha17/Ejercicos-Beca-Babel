@@ -1,12 +1,22 @@
 *{
     /*
-    
     outline: 1px solid red;   
+    
     */
 }
+/*enlaces*/
+a{
+    text-decoration:solid;
+    color: black;
+    cursor: pointer;
+}
+
+
 #cabezera{
     text-align: center;
     font-size: 40px;
+    min-width: 800px;
+    max-width: 1850px;
 }
 body{
     background-image: url("http://www.geocities.ws/mercuriusyelrincon/Fondo_C.gif");
@@ -19,6 +29,8 @@ body{
     background-color: rgb(255, 255, 255);
     margin-left: 250px;
     margin-right: 250px;
+    min-width: 800px;
+    max-width: 1850px;
 }
 #encabezado{
     background-color: rgb(106, 177, 235);
@@ -69,19 +81,35 @@ body{
     font-size: 25px;
     
 }
+#cuerpo{ 
+    padding-right: 35%;
+}
+.cuadrosD{
+    margin-left: 80px;
+}
+#perfilInfo{
+    font-size: 20px;
+    padding-left: 30px;
+}
 .info{
     font-size: 20px;
-    margin-left: 40px;
     margin-top: 20px;
     line-height: 30px ;
-    margin-right: 40px;
+    display:inline;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.info2{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px ;
+    display:inline
 }
 
 .informacion{
     display: inline;
     font-size: 16px;
     margin-left: 40px;
-    width: 18%;
 }
 .der{
     margin-right: 160px;
@@ -93,6 +121,45 @@ body{
     width: 45%;
     float: left;
 }
+/*Parte de la derecha*/
+#otros{
+    background-color: rgb(81, 81, 233);
+    float: right;
+    width: 30%;
+    height: auto;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.idiomas{
+    display: inline;
+}
 
-#Perfil{
+@media screen and (max-width: 1800px){
+    .cuadros{
+        float: none;
+        width: 100%;
+    }
+    #encabezado{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .informacion{
+        display: block;
+        width: 100%;
+    }
+    .inconos{
+        display: block;
+    }
+    .cuadrosD{
+        margin-left: 0px;
+    }
+    #otros{
+        padding-left: 40px;
+        float: none;
+        background-color: rgb(194, 81, 81);
+        color: black;
+
+    }
 }
