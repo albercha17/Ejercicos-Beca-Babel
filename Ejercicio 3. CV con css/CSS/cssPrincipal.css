@@ -156,10 +156,9 @@ body{
         margin-left: 0px;
     }
     #otros{
+        
         padding-left: 40px;
         float: none;
-        background-color: rgb(194, 81, 81);
-        color: black;
 
     }
 }
