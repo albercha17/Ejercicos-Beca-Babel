@@ -1,0 +1,33 @@
+body{
+	margin-top: 80px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    display:block;
+    color: white;
+}
+h1{
+	font-size: 30px;
+	margin-top: -10px;
+}
+.contenedores{
+	margin-top:90px;
+	padding: 40px;
+	border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:groove;
+    margin-left: 20%;
+    margin-right: 30%;
+    max-width: 1000px;
+    min-width: 800px;
+    background-color: #0080c0;
+}
+
+.contenedores2{
+    margin-left: 20%;
+    margin-right: 30%;
+    max-width: 1000px;
+    min-width: 800px;
+}
