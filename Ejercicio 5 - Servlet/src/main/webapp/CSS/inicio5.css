@@ -1,0 +1,20 @@
+body{
+	
+}
+#formulario{
+	display:block;
+	width:300px;
+	text-align:center;
+	font-size:20px;
+}
+.formTitulos{
+	display:block;
+	text-align:left;
+	margin-bottom:10px;
+}
+.nombre1{
+	display:block;
+}
+#enviar{
+	margin-top:10px;
+}
