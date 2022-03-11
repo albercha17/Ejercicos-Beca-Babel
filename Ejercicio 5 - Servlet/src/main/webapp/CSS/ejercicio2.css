@@ -161,4 +161,16 @@ footer{
 	#logo{
 	width:50px;
 	margin-left:10px;}
+	.parrafo{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.bestias{
+    font-size: 17px;
+    color: red;
+}
+h2{
+	font-size: 20px;
+}
 }
