@@ -15,3 +15,13 @@ Ejercicio donde crearemos una pagina html y css muy muy basica. En este caso ser
 ## [Ejercicio 3. CV con css](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%203.%20CV%20con%20css)
 
 Ejercicio para seguir probando css y html, donde crearemos nuestro propio curriculum.
+
+## [Ejercicio 4. Tomcat y server](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%204%20-%20Tomcat)
+
+Ejercicio donde configuramos nuestro servidor de Tomcat y creamos una pagina donde unimos el ejercicio 2 y 3.
+
+## [Ejercicio 5. Servlet](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%205%20-%20Servlet)
+
+Ejercicio donde probamos Servet y JSP, probando un login y pasando informacion de una vista a otra con el uso de Servet
+
+
