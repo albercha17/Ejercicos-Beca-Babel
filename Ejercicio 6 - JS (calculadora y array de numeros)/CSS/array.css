@@ -1,0 +1,43 @@
+.añadir{
+    color: white;
+    background-color: rgb(1, 82, 187);
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+#salir{
+    background-color: rgb(197, 17, 17);
+    color: white;
+    width: 100px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+body{
+    text-align: center;
+    padding-top: 60px;
+    background-color: rgb(255, 254, 198);
+    font-size: 20px;
+}
+
+#campo2{
+    background-color: rgb(255, 254, 198);
+    border: none;
+    
+}
+#campo1{
+    margin-right: 50px;
+    
+}
+input{
+    font-size: 20px;
+}

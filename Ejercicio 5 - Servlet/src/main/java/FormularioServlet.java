@@ -52,10 +52,10 @@ public class FormularioServlet extends HttpServlet {
         }
         else {
         	RequestDispatcher rd = request.getRequestDispatcher("error.jsp");
-        	if(!encontradoPassword)
-        		request.setAttribute("mensaje", "Usuaurio incorrecto.");
-        	else if(!encontradoNombre)
-        		request.setAttribute("mensaje", "Contraseña incorrecta.");
+        	if(!encontradoNombre)
+        		request.setAttribute("mensaje", "Usuario incorrecto.");
+        	else if(!encontradoPassword)
+        		request.setAttribute("mensaje", " Contraseña incorrecta.");
         	rd.forward(request, response);
 	}
         

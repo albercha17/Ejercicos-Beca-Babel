@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/calculadora.css">
+    <title>Calculadora</title>
+    <script>
+
+        function Sumar() {
+            let numero1 = parseInt(campo1.value)
+            let numero2 = parseInt(campo2.value)
+            let resultado1 = numero1 + numero2
+            resultado.value = resultado1
+
+        }
+        function Restar() {
+            let numero1 = parseInt(campo1.value)
+            let numero2 = parseInt(campo2.value)
+            let resultado1 = numero1 - numero2
+            resultado.value = resultado1
+
+        }
+        function Multiplicar() {
+            let numero1 = parseInt(campo1.value)
+            let numero2 = parseInt(campo2.value)
+            let resultado1 = numero1 * numero2
+            resultado.value = resultado1
+
+        }
+        function Dividir() {
+            let numero1 = parseInt(campo1.value)
+            let numero2 = parseInt(campo2.value)
+            let resultado1 = numero1 / numero2
+            resultado.value = resultado1
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <div style="text-align: center;">
+        <h1>Calculadora</h1>
+
+        <input id="campo1" type="numero" placeholder="1º Número" />
+        <br /><br />
+        <input id="campo2" type="numero" placeholder="2º Número" />
+        <br /><br /><br />
+        <button onclick="Sumar()">Sumar</button>
+        <button onclick="Restar()">Restar</button>
+        <button onclick="Multiplicar()">Multiplicar</button>
+        <button onclick="Dividir()">Dividir</button>
+        <br /><br /><br />
+        <input id="resultado" type="numero"placeholder="Resultado">
+        <br /><br /><br /><br />
+        <a href="/HTML/inicio.html"><button id="salir">Salir</button></a>
+    </div>
+</body>
+
+</html>

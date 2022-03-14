@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/array.css">
+    <title>Array de numeros</title>
+    <script>
+        var arrayNum = [1,2,3];
+
+        function enseñarArray() {
+                campo2.value = arrayNum
+
+        }
+
+        function meterNum() {
+
+            let numero = parseInt(campo1.value)
+            if (numero <= 0 || numero > 0) {
+                arrayNum.push(numero)
+                campo2.value = arrayNum
+            }
+
+        }
+
+        function sacarNum() {
+
+            let numero = Math.floor(Math.random() * (arrayNum.length - 0)) + 0;
+            campo3.value = arrayNum[numero]
+
+        }
+    </script>
+</head>
+
+<body onload="enseñarArray()">
+
+    <div style="text-align: center;">
+        <h1>Array de numeros</h1>
+
+        Introduce número: <input id="campo1" type="numero" placeholder="Número..." />
+        Numeros dentro del array: <input id="campo2" type="text">
+        <br /><br />        
+        <button class="añadir" onclick="meterNum()">Añadir</button>
+        <br /><br />
+       
+        <br /><br /><br /><br />
+        
+        Numeros aleatorio: <input id="campo3" type="text" placeholder="Número aleatorio del array">
+        <button class="añadir" onclick="sacarNum()">Sacar numero</button>
+        <br /><br /><br /><br />
+        <br /><br /><br /><br />
+        <a href="/HTML/inicio.html"><button id="salir">Salir</button></a>
+    </div>
+</body>
+
+</html>
