@@ -24,7 +24,7 @@ Ejercicio donde configuramos nuestro servidor de Tomcat y creamos una pagina don
 
 Ejercicio donde probamos Servet y JSP, probando un login y pasando informacion de una vista a otra con el uso de Servet
 
-## [Ejercicio 6 . JS (calculadora y array de numeros](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%206%20-%20JS%20(calculadora%20y%20array%20de%20numeros) )
+## [Ejercicio 6 . JS (calculadora y array de numeros](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%206%20-%20JS%20(calculadora%20y%20array%20de%20numeros)) )
 
 Ejercicio donde empezamos con el uso de JavaScript. Se compone de dos partes, una primera donde añadimos numeros a un array y se nos devuelve uno de forma aleatoria; y una segunda parte donde implementaremos una calculadora muy basica
 
