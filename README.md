@@ -28,5 +28,10 @@ Ejercicio donde probamos Servet y JSP, probando un login y pasando informacion d
 
 Ejercicio donde empezamos con el uso de JavaScript. Se compone de dos partes, una primera donde añadimos numeros a un array y se nos devuelve uno de forma aleatoria; y una segunda parte donde implementaremos una calculadora muy basica
 
+## [Ejercicio 7. Angular y TS](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%207%20-%20Angular/Prueba_Angular)
+
+Ejercicio donde empezamos a ver Angular y TS. Para Angular probaremos a visionar el CV que creamos anteriormente. Para TS crearemos dos ejercicios pequeños, uno en el que hacemos la nota del curso de un alumno y otro en el que mostramos una slista de jeugos oprimiendo el jurgo de mario.
+
+
 
 
