@@ -1,0 +1,105 @@
+
+#cabezera{
+    text-align: center;
+}
+#escudo{
+    width: 80px;
+}
+#plantilla{
+    float: left;
+    display:inline-block;
+    border-width: 3px;
+    border-style: solid;
+    background-image: url("https://mh-1-banco-de-imagen.panthermedia.net/media/media_detail/0011000000/11543000/~campo-de-f%C3%BAtbol-verde--_11543235_detail.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 800px;
+    width: 600px;
+    margin-left: 25%;
+    margin-bottom: 60px;
+}
+.jugador{
+    width: 90px;
+    height: 80px;
+    border-style: none;
+    border-radius: 50px;
+    background-size: 80px;
+    background-color: transparent;
+}
+
+.jugadorFoto{
+    width: 100%;
+    border-radius: 50px;
+    background-size: 80px;
+    border-style:solid;
+    border-radius: 50px;
+    background-size: 80px;
+}
+#extremoIz{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#delantero{
+    margin-left: 65px;
+    margin-top: 80px;
+    position: absolute;
+}
+#extremoDer{
+    margin-left: 240px;
+}
+#centro1{
+    margin-left: 140px;
+    margin-top: 50px;
+}
+#centro2{
+    margin-left: 140px;
+}
+
+#centro3{
+    margin-left: 255px;
+    margin-top: 10px;
+}
+#lateralIz{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#centralIz{
+    margin-left: 20px;
+    margin-top: 60px;
+    position: absolute;
+}
+#centralDer{
+    margin-left: 140px;
+    margin-top: 60px;
+    position: absolute;
+}
+#lateralDer{
+    margin-left: 250px;
+
+}
+#portero{
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+#cuadroEstadisticas{
+    display:inline-block;
+    border-width: 3px;
+    border-style: solid;
+    width: 450px;
+    margin-left: 60px;
+    float: left;
+}
+h3{
+    margin-left: 20px;
+}
+input{
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#foto{
+    margin-left: 80px;
+    width: 280px;
+}

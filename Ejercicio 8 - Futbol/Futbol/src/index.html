@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Plantilla</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2013/07/13/10/51/football-157931_1280.png">
+</head>
+<script>
+
+//----------------------------------------------------------------------------
+//Historial por cada jugador
+var Historial = /** @class */ (function () {
+    function Historial(id, goles, amarillas, rojas) {
+        this._id = id;
+        this._goles = goles;
+        this._amarillas = amarillas;
+        this._rojas = rojas;
+    }
+    Object.defineProperty(Historial.prototype, "id", {
+        //Getters y Settes--------------------------------------------------------------------------------------------------------
+        get: function () {
+            return this._id;
+        },
+        set: function (value) {
+            this._id = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Historial.prototype, "goles", {
+        get: function () {
+            return this._goles;
+        },
+        set: function (value) {
+            this._goles = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Historial.prototype, "amarillas_1", {
+        get: function () {
+            return this._amarillas;
+        },
+        set: function (value) {
+            this._amarillas = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Historial.prototype, "rojas_1", {
+        get: function () {
+            return this._rojas;
+        },
+        set: function (value) {
+            this._rojas = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    //Los atributos estaticos son comunes a todos los objetos
+    Historial.numeroPersonas = 0;
+    return Historial;
+}());
+
+//Jugadores
+
+var Jugador = /** @class */ (function () {
+    function Jugador(id, nombre, edad, pais, historial, foto) {
+        this._id = id;
+        this._nombre = nombre;
+        this._edad = edad;
+        this._pais = pais;
+        this._historial = historial;
+        this._foto = foto;
+    }
+    Object.defineProperty(Jugador.prototype, "id", {
+        //Getters y Settes--------------------------------------------------------------------------------------------------------
+        get: function () {
+            return this._id;
+        },
+        set: function (value) {
+            this._id = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    
+    Object.defineProperty(Jugador.prototype, "foto", {
+        get: function () {
+            return this._foto;
+        },
+        set: function (value) {
+            this._foto = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+
+    Object.defineProperty(Jugador.prototype, "nombre", {
+        get: function () {
+            return this._nombre;
+        },
+        set: function (value) {
+            this._nombre = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Jugador.prototype, "edad", {
+        get: function () {
+            return this._edad;
+        },
+        set: function (value) {
+            this._edad = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Jugador.prototype, "pais", {
+        get: function () {
+            return this._pais;
+        },
+        set: function (value) {
+            this._pais = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Jugador.prototype, "historial_1", {
+        get: function () {
+            return this._historial;
+        },
+        set: function (value) {
+            this._historial = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return Jugador;
+}());
+
+//Equipo
+var Equipo = /** @class */ (function () {
+    function Equipo(id, nombre, fecha, jugadores) {
+        this._id = id;
+        this._nombre = nombre;
+        this._fecha = fecha;
+        this._jugadores = jugadores;
+    }
+    Object.defineProperty(Equipo.prototype, "id", {
+        get: function () {
+            return this._id;
+        },
+        set: function (value) {
+            this._id = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Equipo.prototype, "nombre", {
+        get: function () {
+            return this._nombre;
+        },
+        set: function (value) {
+            this._nombre = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Equipo.prototype, "fecha", {
+        get: function () {
+            return this._fecha;
+        },
+        set: function (value) {
+            this._fecha = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Equipo.prototype, "jugadores", {
+        get: function () {
+            return this._jugadores;
+        },
+        set: function (value) {
+            this._jugadores = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return Equipo;
+}());
+//-----------------------------------------------------------------------------------
+var historial1 = new Historial('1', 0, 1, 1);
+var historial2 = new Historial('2', 2, 26, 8);
+var historial3 = new Historial('3', 3, 7, 2);
+var historial4 = new Historial('4', 4, 17, 1);
+var historial5 = new Historial('5', 3, 9, 0);
+var historial6 = new Historial('6', 4, 18, 5);
+var historial7 = new Historial('7', 8, 13, 1);
+var historial8 = new Historial('8', 9, 8, 2);
+var historial9 = new Historial('9', 14, 5, 0);
+var historial10 = new Historial('10', 16, 4, 1);
+var historial11 = new Historial('12', 3, 1, 0);
+var historial11 = new Historial('13', 2, 5, 1);
+
+var Jugador1 = new Jugador('1', 'Thibaut Courtois', 29, 'Belgica', historial1,"https://www.realmadrid.com/img/vertical_380px/courtois_380x501_20210826062816.jpg");
+var Jugador3 = new Jugador('3', 'Eder Militao', 24, 'Brasil', historial2,"https://www.realmadrid.com/img/vertical_380px/militao_380x501_20210826062825.jpg");
+var Jugador4 = new Jugador('4', 'David Alaba', 29, 'Austria', historial3,"https://www.realmadrid.com/img/vertical_380px/alaba_380x501_20210826062826.jpg");
+var Jugador23 = new Jugador('23', 'Ferlan Mendy', 26, 'Francia', historial4,"https://www.realmadrid.com/img/vertical_380px/mendy_he19491_380x501_20210910082744.jpg");
+var Jugador2 = new Jugador('2', 'Dani Carvajal', 30, 'España', historial5,"https://www.realmadrid.com/img/vertical_380px/carvajal_380x501_20210826062807.jpg");
+var Jugador14 = new Jugador('14', 'Carlos Enrique Casemiro', 30, 'Brasil', historial6,"https://www.realmadrid.com/img/vertical_380px/casemiro_380x501_20210826062810.jpg");
+var Jugador8 = new Jugador('8', 'Toni Kross', 32, 'Alemania', historial7,"https://www.realmadrid.com/img/vertical_380px/kroos_380x501_20210826062809.jpg");
+var Jugador10 = new Jugador('10', 'Luca Modric', 36, 'Croacia', historial8,"https://www.realmadrid.com/img/vertical_380px/modric_380x501_20210826062810.jpg");
+var Jugador20 = new Jugador('20', 'Vinicius Jr.', 21, 'Brasil', historial9,"https://www.realmadrid.com/img/vertical_380px/vinijr_380x501_20210826062815.jpg");
+var Jugador11 = new Jugador('11', 'Marco Asensio', 26, 'España', historial10,"https://www.realmadrid.com/img/vertical_380px/asensio_he19417_380x501_20210910082737.jpg");
+var Jugador9 = new Jugador('9', 'Karim Benzema', 34, 'Francia', historial11,"https://www.realmadrid.com/img/vertical_380px/benzema_380x501_20210826062812.jpg");
+var Jugador7 = new Jugador('7', 'Eden Hazard', 30, 'Belgica', historial11,"https://www.realmadrid.com/img/vertical_380px/hazard_380x501_20210826062817.jpg");
+var Jugador25 = new Jugador('25', 'Eduardo Camavinga', 19, 'Francia', historial11,"https://www.realmadrid.com/img/vertical_380px/camavinga_he19458_380x501_20210910082744.jpg");
+
+
+var jugadores = [
+    Jugador1,
+    Jugador3,
+    Jugador4,
+    Jugador23,
+    Jugador2,
+    //Jugador14,
+    Jugador25,
+    Jugador8,
+    Jugador10,
+    Jugador20,
+    Jugador11,
+    Jugador9,
+    //Estos son suplentes. Cambialos si quieres
+    Jugador7,
+    Jugador25,
+];
+var equipo = new Equipo('1', 'Real Madrid', '6 de marzo de 1902', jugadores);
+
+
+
+//----------------------------------------------------------------------------
+function rellenarCampo(){
+    P.src=equipo.jugadores[0].foto
+    portero.title=equipo.jugadores[0].nombre
+    LD.src=equipo.jugadores[4].foto
+    lateralDer.title=equipo.jugadores[4].nombre
+    D2.src=equipo.jugadores[2].foto
+    centralDer.title=equipo.jugadores[2].nombre
+    D1.src=equipo.jugadores[1].foto
+    centralIz.title=equipo.jugadores[1].nombre
+    LI.src=equipo.jugadores[3].foto
+    lateralIz.title=equipo.jugadores[3].nombre
+    C1.src=equipo.jugadores[6].foto
+    centro1.title=equipo.jugadores[6].nombre
+    C2.src=equipo.jugadores[7].foto
+    centro2.title=equipo.jugadores[7].nombre
+    C3.src=equipo.jugadores[5].foto
+    centro3.title=equipo.jugadores[5].nombre
+    ED.src=equipo.jugadores[9].foto
+    extremoDer.title=equipo.jugadores[9].nombre
+    DC.src=equipo.jugadores[10].foto
+    delantero.title=equipo.jugadores[10].nombre
+    EI.src=equipo.jugadores[8].foto
+    extremoIz.title=equipo.jugadores[8].nombre
+}
+
+
+  function verEstadisticasP() {
+    nombre.value = equipo.jugadores[0].nombre
+    pais.value= equipo.jugadores[0].pais
+    edad.value= equipo.jugadores[0].edad
+    gol.value=equipo.jugadores[0].historial_1.goles
+    amarillas.value = equipo.jugadores[0].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[0].historial_1.rojas_1
+    foto.src=equipo.jugadores[0].foto
+  }
+
+  function verEstadisticasEI() {
+    nombre.value = equipo.jugadores[8].nombre
+    pais.value= equipo.jugadores[8].pais
+    edad.value= equipo.jugadores[8].edad
+    gol.value=equipo.jugadores[8].historial_1.goles
+    amarillas.value = equipo.jugadores[8].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[8].historial_1.rojas_1
+    foto.src=equipo.jugadores[8].foto
+  }
+
+  function verEstadisticasD() {
+    nombre.value = equipo.jugadores[10].nombre
+    pais.value= equipo.jugadores[10].pais
+    edad.value= equipo.jugadores[10].edad
+    gol.value=equipo.jugadores[10].historial_1.goles
+    amarillas.value = equipo.jugadores[10].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[10].historial_1.rojas_1
+    foto.src=equipo.jugadores[10].foto
+  }
+
+  function verEstadisticasED() {
+    nombre.value = equipo.jugadores[9].nombre
+    pais.value= equipo.jugadores[9].pais
+    edad.value= equipo.jugadores[9].edad
+    gol.value=equipo.jugadores[9].historial_1.goles
+    amarillas.value = equipo.jugadores[9].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[9].historial_1.rojas_1
+    foto.src=equipo.jugadores[9].foto
+  }
+
+  function verEstadisticasC1() {
+   
+    nombre.value = equipo.jugadores[6].nombre
+    pais.value= equipo.jugadores[6].pais
+    edad.value= equipo.jugadores[6].edad
+    gol.value=equipo.jugadores[6].historial_1.goles
+    amarillas.value = equipo.jugadores[6].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[6].historial_1.rojas_1
+    foto.src=equipo.jugadores[6].foto
+  }
+
+  function verEstadisticasC2() {
+    
+    nombre.value = equipo.jugadores[7].nombre
+    pais.value= equipo.jugadores[7].pais
+    edad.value= equipo.jugadores[7].edad
+    gol.value=equipo.jugadores[7].historial_1.goles
+    amarillas.value = equipo.jugadores[7].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[7].historial_1.rojas_1
+    foto.src=equipo.jugadores[7].foto
+  }
+
+  function verEstadisticasC3() {
+    
+    nombre.value = equipo.jugadores[5].nombre
+    pais.value= equipo.jugadores[5].pais
+    edad.value= equipo.jugadores[5].edad
+    gol.value=equipo.jugadores[5].historial_1.goles
+    amarillas.value = equipo.jugadores[5].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[5].historial_1.rojas_1
+    foto.src=equipo.jugadores[5].foto
+  }
+
+  function verEstadisticasLI() {
+    nombre.value = equipo.jugadores[3].nombre
+    pais.value= equipo.jugadores[3].pais
+    edad.value= equipo.jugadores[3].edad
+    gol.value=equipo.jugadores[3].historial_1.goles
+    amarillas.value = equipo.jugadores[3].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[3].historial_1.rojas_1
+    foto.src=equipo.jugadores[3].foto
+  }
+
+  function verEstadisticasLD() {
+    nombre.value = equipo.jugadores[4].nombre
+    pais.value= equipo.jugadores[4].pais
+    edad.value= equipo.jugadores[4].edad
+    gol.value=equipo.jugadores[4].historial_1.goles
+    amarillas.value = equipo.jugadores[4].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[4].historial_1.rojas_1
+    foto.src=equipo.jugadores[4].foto
+  }
+
+  function verEstadisticasD1() {
+    nombre.value = equipo.jugadores[1].nombre
+    pais.value= equipo.jugadores[1].pais
+    edad.value= equipo.jugadores[1].edad
+    gol.value=equipo.jugadores[1].historial_1.goles
+    amarillas.value = equipo.jugadores[1].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[1].historial_1.rojas_1
+    foto.src=equipo.jugadores[1].foto
+  }
+
+  function verEstadisticasD2() {
+    nombre.value = equipo.jugadores[2].nombre
+    pais.value= equipo.jugadores[2].pais
+    edad.value= equipo.jugadores[2].edad
+    gol.value=equipo.jugadores[2].historial_1.goles
+    amarillas.value = equipo.jugadores[2].historial_1.amarillas_1
+    rojas.value = equipo.jugadores[2].historial_1.rojas_1
+    foto.src=equipo.jugadores[2].foto
+
+  }
+
+
+  function borrarTexto() {
+
+    nombre.value = ""
+    gol.value = ""
+    amarillas.value = ""
+    rojas.value = ""
+    foto.src=""
+    pais.value=""
+    edad.value=""
+  }
+</script>
+<body onload="rellenarCampo()">
+ 
+
+  <app-plantilla></app-plantilla>
+</body>
+
+</html>
