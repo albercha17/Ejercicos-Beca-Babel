@@ -1,0 +1,66 @@
+<h1>LISTA DE VIDEOJUEGOS</h1>
+<hr>
+
+<div class="cajitas" id="lista">
+  <table border="1" cellspadding="500">    
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Compañia</th>
+            <th>Valoración</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let h of listaVideojuegos" (click)="seleccionar(h)">
+            <td>{{ h.id }}</td>
+            <td>{{ h.nombre }}</td>
+            <td>{{ h.compania }}</td>
+            <td>{{ h.valoracion }}</td>
+        </tr>
+        <tr *ngIf="listaVideojuegos.length==0">
+            <td colspan="4">
+                NO SE HAN ENCONTRADO VIDEOJUEGOS
+            </td>
+        </tr>
+    </tbody>
+  </table> 
+</div>
+<br><br>
+<div class="cajitas" id="botones"> 
+  <button (click)="insertar()" [disabled]="insertarDeshabilitado">Insertar</button>
+  <button (click)="borrar()"[disabled]="modificarBorrarDeshabilitado">Borrar</button>
+  <button (click)="modificar()" [disabled]="modificarBorrarDeshabilitado">Modificar</button>
+   <button (click)="vaciar()">Vaciar</button>
+</div>
+
+<br/>
+
+<div class="cajitas" id="ultima">
+  <label for="idVideojuego">ID</label>
+  <div>
+      <input id="idVideojuego" disabled="disabled" value="{{id==0 ?'':id}}"/>  
+  </div>
+
+  <label for="nombre">Nombre</label>
+  <div>
+      <input id="nombre" [(ngModel)]="nombre">
+      <span class="error" *ngIf="!nombreObligatorio">El nombre es obligatorio</span>
+  </div>    
+
+  <label for="compania">Compañia</label>
+  <div>
+      <input id="compania" [(ngModel)]="compania"/>
+      <span class="error" *ngIf="!companiaObligatoria">La compañia es obligatoria</span>
+  </div>
+  
+  <label for="valoracion">Valoración</label>
+  <div>
+      <input id="valoracion" [(ngModel)]="valoracion"/>
+      <span class="error" *ngIf="!valoracionObligatoria">La valoración es obligatoria y tiene que ser entre 1 y 10</span>
+  </div>
+</div>    
+
+
+

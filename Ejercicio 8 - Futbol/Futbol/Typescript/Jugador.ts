@@ -6,19 +6,25 @@ import{ Historial } from "./Historial"
     private _edad: number;
     private _pais: string;
     private _historial: Historial;
+    private _foto: string;
+    private _titular: boolean;
   
     constructor(
       id: string,
       nombre: string,
       edad: number,
       pais: string,
-      historial: Historial
+      historial: Historial,
+      foto: string,
+      titular: boolean
     ) {
       this._id = id;
       this._nombre = nombre;
       this._edad = edad;
       this._pais = pais;
       this._historial = historial;
+      this._foto=foto
+      this._titular=titular
     }
     //Getters y Settes--------------------------------------------------------------------------------------------------------
     public get id(): string {
@@ -52,5 +58,18 @@ import{ Historial } from "./Historial"
     public set historial_1(value: Historial) {
       this._historial = value;
     }
+    public get foto(): string {
+      return this._foto;
+    }
+    public set foto(value: string) {
+      this._foto = value;
+    }
+    public get titular(): boolean {
+      return this._titular;
+    }
+    public set titular(value: boolean) {
+      this._titular = value;
+    }
+   
     //--------------------------------------------------------------------------------------------------------
   }

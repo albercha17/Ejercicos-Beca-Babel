@@ -9,7 +9,7 @@ export class Historial {
   
     constructor(id: string, goles: number, amarillas: number, rojas: number) {
       this._id = id;
-      this._goles = 0;
+      this._goles = goles;
       this._amarillas = amarillas;
       this._rojas = rojas;
     }

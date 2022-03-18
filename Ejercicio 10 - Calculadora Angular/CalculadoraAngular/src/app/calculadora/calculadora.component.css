@@ -1,0 +1,44 @@
+button{
+    color: white;
+    background-color: rgb(1, 82, 187);
+    width: 100px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+#salto{
+    display: none;
+}
+input{
+    width: 300px;
+    font-size: 30px;
+}
+#caja{
+    text-align: center;
+}
+body{
+    text-align: center;
+    padding-top: 60px;
+    background-color: rgb(255, 254, 198);
+}
+@media screen and (max-width: 1200px){
+    #caja{
+        text-align: left;
+    }
+    input{
+        width: 300px;
+        font-size: 30px;
+    }
+    button{
+        background-color: rgb(78, 3, 128);
+        border-radius: 0px;
+        margin-right: 10px;
+    }
+    #salto{
+        display: block;
+    }
+}

@@ -1,0 +1,18 @@
+
+
+    <div id="caja">
+        <h1>Calculadora</h1>
+
+        <input id="campo1" type="numero" placeholder="1º Número" [(ngModel)]="numero1" />
+        <br /><br />
+        <input id="campo2" type="numero" placeholder="2º Número" [(ngModel)]="numero2"  />
+        <br /><br /><br />
+        <button (click)="Sumar()">Sumar</button>
+        <button (click)="Restar()">Restar</button>
+        <br id="salto"><br id="salto">
+        <button (click)="Multiplicar()">Multiplicar </button>
+        <button (click)="Dividir()" >Dividir</button>
+        <br /><br /><br />
+        <input id="resultado" type="numero"placeholder="Resultado" value="{{resultado}}" >
+        <br /><br /><br /><br />
+    </div>

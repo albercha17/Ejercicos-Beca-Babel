@@ -1,0 +1,73 @@
+<div id="cuerpo">
+  <div id="lista">
+    <h2 style="text-align: center;">JUGADORES</h2>
+    <hr>
+    <p>
+      <li *ngFor="let jugador of equipo.jugadores, index as i" [ngSwitch]="jugador.titular">
+        <button *ngSwitchCase="true" class="juadorDeListaT">{{jugador.nombre}}({{jugador.id}})</button>
+        <button *ngSwitchCase="false" class="juadorDeLista">{{jugador.nombre}}({{jugador.id}})</button>
+        <br><br>
+      </li>
+
+    </p>
+  </div>
+  <div id="botones">
+    <br><br>
+    <button (click)="cambiarTitulares()" class="BotonCambiarJugadores">Plantilla titular</button>
+    <br><br>
+    <button (click)="cambiarJugadores()" class="BotonCambiarJugadores">Cambiar jugadores</button>
+  </div>
+
+  <div id="plantilla">
+
+    <button onclick="" class="jugador" id="extremoIz" title={{EI.nombre}} (mouseover)="ponerJugador('EI')"><img
+        class="jugadorFoto" id="EI" src={{EI.foto}}><p class="numero">{{EI.id}}</p></button>
+
+    <button onclick="" class="jugador" id="delantero" title={{DC.nombre}} (mouseover)="ponerJugador('DC')"><img
+        class="jugadorFoto" id="DC" src={{DC.foto}}><p class="numero">{{DC.id}}</p></button>
+
+    <button onclick="" class="jugador" id="extremoDer" title={{ED.nombre}} (mouseover)="ponerJugador('ED')"><img
+        class="jugadorFoto" id="ED" src={{ED.foto}}><p class="numero">{{ED.id}}</p></button>
+    <br>
+    <button onclick="" class="jugador" id="centro1" title={{MC1.nombre}} (mouseover)="ponerJugador('MC1')"><img
+        class="jugadorFoto" id="C1" src={{MC1.foto}}><p class="numero">{{MC1.id}}</p></button>
+
+    <button onclick="" class="jugador" id="centro2" title={{MC2.nombre}} (mouseover)="ponerJugador('MC2')"><img
+        class="jugadorFoto" id="C2" src={{MC2.foto}}><p class="numero">{{MC2.id}}</p></button>
+    <br>
+    <button onclick="" class="jugador" id="centro3" title={{MCD.nombre}} (mouseover)="ponerJugador('MCD')"><img
+        class="jugadorFoto" id="C3" src={{MCD.foto}}><p class="numero">{{MCD.id}}</p></button>
+    <br>
+
+    <button onclick="" class="jugador" id="lateralIz" title={{LI.nombre}} (mouseover)="ponerJugador('LI')"><img
+        class="jugadorFoto" id="LI" src={{LI.foto}}><p class="numero">{{LI.id}}</p></button>
+
+    <button onclick="" class="jugador" id="centralIz" title={{DFCI.nombre}} (mouseover)="ponerJugador('DFCI')"><img
+        class="jugadorFoto" id="D1" src={{DFCI.foto}}><p class="numero">{{DFCI.id}}</p></button>
+
+    <button onclick="" class="jugador" id="centralDer" title={{DFCD.nombre}} (mouseover)="ponerJugador('DFCD')"><img
+        class="jugadorFoto" id="D2" src={{DFCD.foto}}><p class="numero">{{DFCD.id}}</p></button>
+
+    <button onclick="" class="jugador" id="lateralDer" title={{LD.nombre}} (mouseover)="ponerJugador('LD')"><img
+        class="jugadorFoto" id="LD" src={{LD.foto}}><p class="numero">{{LD.id}}</p></button>
+    <br>
+
+    <button id="portero" class="jugador" title={{POR.nombre}} (mouseover)="ponerJugador('POR')"><img class="jugadorFoto"
+        id="P" src={{POR.foto}}><p class="numero">{{POR.id}}</button>
+  </div>
+  <div id="cuadroEstadisticas">
+
+    <h2 style="text-align: center;">Estadisticas</h2>
+    <br>
+    <img src={{foto}} id="foto">
+    <h3>Jugador: {{nombre}}<input id="nombre" type="text" /> </h3>
+    <h3>Nacionalidad: {{pais}}<input id="pais" type="text" /> </h3>
+    <h3>Edad: {{edad}}<input id="edad" type="text" /> </h3>
+    <h3>Goles: {{gol}}<input id="gol" type="text" /> </h3>
+    <h3>Tarjetas amarillas: {{amarillas}} <input id="amarillas" type="text" /> </h3>
+    <h3>Tarjetas rojas: {{rojas}}<input id="rojas" type="text" /></h3>
+
+
+  </div>
+
+</div>

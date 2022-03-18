@@ -1,0 +1,57 @@
+.cajitas{
+    display: inline;
+    float: left;
+    margin-left: 60px;
+}
+#botones{
+    margin-top: 20px;
+    display: grid;
+}
+button{
+    margin-bottom: 20px;
+    border-width: 3px;
+    background-color: darkcyan;
+    color: aliceblue;
+    border-color: black;
+}
+button:disabled{
+    background-color: rgb(2, 82, 82);
+    color: rgb(192, 192, 192);
+}
+#lista{
+    text-align: center;
+    margin-top: 70px;
+    border-style: solid;
+    padding: 1px;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.error{
+    color:red;
+    margin-left: 10px;
+}
+#ultima{
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+th, td {
+    width: 25%;
+    padding: 10px;
+ }
+
+ @media screen and (max-width: 1500px){
+     #lista{
+         margin-right: 800px;
+         margin-bottom: 30px;
+     }
+     #ultima{
+        margin-top: 0px;
+    }
+    h1{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
