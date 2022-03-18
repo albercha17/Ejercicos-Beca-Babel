@@ -40,6 +40,10 @@ Ejercicio donde probaremos mas implemenatciones de TS, con varias clases. Ademas
 
 Este ejercicio se basa en hacer una calculadora muy sencilla en el entorno de angular para probar un formulario muy sencillo
 
+## [Ejercicio 11. Videojuegos](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2011%20-%20Videojuegos%20Angular/videojuegosAngular)
+
+Ejercicio donde ademas de hacer una clase Videojuego, implementaremos unas lista en angular para trabajar el uso de formularios, con botones de insertar, borrar, modificiar y vaciar formulario.
+
 
 
 
