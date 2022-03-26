@@ -1,0 +1,43 @@
+#cabezera{
+    width: 100%;
+    background-color: rgb(33, 55, 175);
+    margin-bottom: 50PX;
+    border-style: solid;
+    border-color: black;
+}
+*{
+    color: aliceblue;
+    display: inline-block;
+}
+#titulo{
+    font-size: 30px;
+    margin-left: 50px;
+}
+#botones{
+    margin-left: 150px;
+}
+button{
+    background-color: transparent;
+    border-style: none;
+    margin-right: 40px;
+}
+button:hover{
+
+    color: rgb(207, 212, 216);
+}
+button:disabled{
+
+    color: rgb(133, 135, 136);
+}
+#salir{
+     float: right;
+    background-color: red;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    margin-top: 13px;
+}
+#salir:hover{
+   background-color: rgb(173, 6, 6);
+}
