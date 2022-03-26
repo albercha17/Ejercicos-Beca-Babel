@@ -28,9 +28,21 @@ Ejercicio donde probamos Servet y JSP, probando un login y pasando informacion d
 
 Ejercicio donde empezamos con el uso de JavaScript. Se compone de dos partes, una primera donde añadimos numeros a un array y se nos devuelve uno de forma aleatoria; y una segunda parte donde implementaremos una calculadora muy basica
 
-## [Ejercicio 7. Angular y TS](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%207%20-%20Angular/Prueba_Angular)
+## [Ejercicio 7 y 9. Angular y TS](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%207%20-%20Angular/Prueba_Angular)
 
 Ejercicio donde empezamos a ver Angular y TS. Para Angular probaremos a visionar el CV que creamos anteriormente. Para TS crearemos dos ejercicios pequeños, uno en el que hacemos la nota del curso de un alumno y otro en el que mostramos una slista de jeugos oprimiendo el jurgo de mario.
+
+## [Ejercicio 8. Futbol](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%208%20-%20Futbol/Futbol)
+
+Ejercicio donde probaremos mas implemenatciones de TS, con varias clases. Ademas he implementado una vista en angular utilizando dichas clases.
+
+## [Ejercicio 10. Calculadora Angular](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2010%20-%20Calculadora%20Angular/CalculadoraAngular)
+
+Este ejercicio se basa en hacer una calculadora muy sencilla en el entorno de angular para probar un formulario muy sencillo
+
+## [Ejercicio 11. Videojuegos](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2011%20-%20Videojuegos%20Angular/videojuegosAngular)
+
+Ejercicio donde ademas de hacer una clase Videojuego, implementaremos unas lista en angular para trabajar el uso de formularios, con botones de insertar, borrar, modificiar y vaciar formulario.
 
 
 
