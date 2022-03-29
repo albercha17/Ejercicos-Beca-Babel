@@ -44,6 +44,10 @@ Este ejercicio se basa en hacer una calculadora muy sencilla en el entorno de an
 
 Ejercicio donde ademas de hacer una clase Videojuego, implementaremos unas lista en angular para trabajar el uso de formularios, con botones de insertar, borrar, modificiar y vaciar formulario.
 
+## [Ejercicio 12. Angular y manejo de componentes](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2012-%20Angular%20y%20manejo%20de%20componentes/videojuegosAngular)
+
+Ejercicio donde practicaremos el manejo de angular y sus componentes. Para ello crearemos una pagina donde nos loguearemos y mandaremos el usuario a la pagina de inicio. Asi mismo tendremos varias pestañas: unas muy simples de contactanos y quienes somos, y otra donde se mostrara la lista de videojuegos del usuario.
+
 
 
 
