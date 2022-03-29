@@ -44,6 +44,16 @@ Este ejercicio se basa en hacer una calculadora muy sencilla en el entorno de an
 
 Ejercicio donde ademas de hacer una clase Videojuego, implementaremos unas lista en angular para trabajar el uso de formularios, con botones de insertar, borrar, modificiar y vaciar formulario.
 
+## [Ejercicio 12. Angular y manejo de componentes](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2012-%20Angular%20y%20manejo%20de%20componentes/videojuegosAngular)
 
+Ejercicio donde practicaremos el manejo de angular y sus componentes. Para ello crearemos una pagina donde nos loguearemos y mandaremos el usuario a la pagina de inicio. Asi mismo tendremos varias pestañas: unas muy simples de contactanos y quienes somos, y otra donde se mostrara la lista de videojuegos del usuario.
+
+## [Ejercicio 13. Java( sueldo de empleados)](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2013%20-%20Java(%20sueldos%20de%20empleados))
+
+Ejercicio donde tocaremos aspectos basicos de java, como es la herencia y el polimorfismo. El ejercicio se basa en la gestion interna atraves de listas de una serie de empleados, cada uno diferente y con run rol diferente.
+
+## [Ejercicio 14. Java con Base de datos](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2014%20-%20Java%20con%20Base%20de%20datos)
+
+Ejercicio donde aplicaremos una aplicacion java con una base de datos, amplicando a su vez el modelo de capas. Este ejercicio se basa en una base de datos con diferentes coches, y una aplicacion que, utilizando dicha base de datos, hara varias acciones en ella (dar de alta, dar de baja, modificar, mostrar, filtrar...). Es una aplaicacion muy basica y la ejecucion y vista se hara todo por cosola.
 
 
