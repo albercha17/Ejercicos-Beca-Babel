@@ -48,6 +48,10 @@ Ejercicio donde ademas de hacer una clase Videojuego, implementaremos unas lista
 
 Ejercicio donde practicaremos el manejo de angular y sus componentes. Para ello crearemos una pagina donde nos loguearemos y mandaremos el usuario a la pagina de inicio. Asi mismo tendremos varias pestañas: unas muy simples de contactanos y quienes somos, y otra donde se mostrara la lista de videojuegos del usuario.
 
+## [Ejercicio 13. Java( sueldo de empleados)](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2013%20-%20Java(%20sueldos%20de%20empleados))
 
+Ejercicio donde tocaremos aspectos basicos de java, como es la herencia y el polimorfismo. El ejercicio se basa en la gestion interna atraves de listas de una serie de empleados, cada uno diferente y con run rol diferente.
+
+##
 
 
