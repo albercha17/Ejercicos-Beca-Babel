@@ -1,0 +1,14 @@
+TAREAS PARA 18/03
+
+0) Repasar el ejemplo de formularios
+
+1) Ejercicio 10 Hacer una aplicación en angular que haga una calculadora (mismo ejercicio que en javascript)
+
+La app mostrará un formulario para introducir los datos, además permitira vaciar el formulario.
+
+Debajo del formulario se mostrará una tabla con los videojuegos introducidos.
+
+Meter para ambas aplicaciones estilos (ej: reponsive, estilos de formulario, posicionamiento)//20% del tiempo max
+
+Opcional: dar de baja y modificar videojuego
+
