@@ -15,11 +15,11 @@ public class main {
 		System.out.println("1. Alta de coche\r\n"
 				+ "2. Eliminar coche por id\r\n"
 				+ "3. Modificar coche por id\r\n"
-				+ "4. buscar coche por id\r\n"
-				+ "5. buscar coche por matricula\r\n"
-				+ "6. buscar coches por marca\r\n"
-				+ "7. buscar coches por modelo\r\n"
-				+ "8. listar todos los coches\r\n"
+				+ "4. Buscar coche por id\r\n"
+				+ "5. Buscar coche por matricula\r\n"
+				+ "6. Buscar coches por marca\r\n"
+				+ "7. Buscar coches por modelo\r\n"
+				+ "8. Listar todos los coches\r\n"
 				+ "9. Salir de la aplicación");
 	}
 	

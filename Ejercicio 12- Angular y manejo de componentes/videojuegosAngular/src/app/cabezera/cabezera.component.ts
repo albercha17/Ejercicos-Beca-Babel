@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Nombre } from '../entidades/nombre';
+import { AppComponent } from '../app.component';
 import { LoginComponent } from '../login/login.component';
 
 @Component({
@@ -12,12 +12,15 @@ export class CabezeraComponent implements OnInit {
 
   registrado: boolean=false
   deshabilitadoBoton :boolean =false
-  usuario: string;
+  usuario: string=AppComponent.user;
   constructor(route:ActivatedRoute,private router:Router) {
-    
-    this.usuario=Nombre.nombre
-    console.log("zzz "+ Nombre.nombre)
+
+    console.log("El usuario es "+AppComponent.user)
   }
   ngOnInit() {
+  }
+  public bienvenida():void{
+    console.log("Bienvenido "+AppComponent.user)
+    this.router.navigate([ '/bienvenida',AppComponent.user])
   }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { AppComponent } from '../app.component';
 import { Videojuegos } from '../entidades/Videojuegos';
 @Component({
   selector: 'app-videojuegos-component',
@@ -16,7 +17,7 @@ export class VideojuegosComponentComponent implements OnInit {
    listaVideojuegos2: Videojuegos[] = []
 
   videojuego : Videojuegos | null = null//permitimos al heroe apuntar null
-
+  user: string = AppComponent.user
   mostrarInfo:boolean=false;
   id : number = 0
   nombre : string = ""
@@ -27,6 +28,7 @@ export class VideojuegosComponentComponent implements OnInit {
 
   constructor(route:ActivatedRoute) {
     this.listaVideojuegos2=VideojuegosComponentComponent.listaVideojuegos
+    console.log("El usuario es "+AppComponent.user)
    }
   ngOnInit() {
   }
@@ -40,7 +42,6 @@ export class VideojuegosComponentComponent implements OnInit {
     this.foto=videojuego.foto
    
   }
-
   public borrarInfo():void{
     this.mostrarInfo=false;
   }

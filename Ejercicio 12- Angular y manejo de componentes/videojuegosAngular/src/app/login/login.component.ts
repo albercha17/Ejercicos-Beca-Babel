@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Usuario } from '../entidades/Usuario';
 import { Videojuegos } from '../entidades/Videojuegos';
 import { Router } from '@angular/router';
-import { Nombre } from '../entidades/nombre';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-login',
@@ -46,9 +46,9 @@ export class LoginComponent implements OnInit {
          this.usuario=this.listaUsuarios[i]
          console.log(this.usuario)
          this.registrado=1
-         Nombre.nombre= this.nombre;
+         AppComponent.user= this.nombre;
          this.router.navigate([ '/bienvenida',this.nombre])
-         console.log("El usuario es "+Nombre.nombre)
+         console.log("El usuario es "+AppComponent.user)
         }
       }
     }

@@ -5,7 +5,7 @@
 <hr>
 
 <div class="cajitas" id="lista">  
-        <h3>Lista de videojuegos</h3>
+        <h3>Lista de videojuegos de {{user}}</h3>
         <hr>
         <li *ngFor="let h of listaVideojuegos2" (mouseover)="seleccionar(h)" (mouseleave)="borrarInfo()">
             <div class="juego">
