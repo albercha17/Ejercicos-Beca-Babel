@@ -52,6 +52,8 @@ Ejercicio donde practicaremos el manejo de angular y sus componentes. Para ello 
 
 Ejercicio donde tocaremos aspectos basicos de java, como es la herencia y el polimorfismo. El ejercicio se basa en la gestion interna atraves de listas de una serie de empleados, cada uno diferente y con run rol diferente.
 
-##
+## [Ejercicio 14. Java con Base de datos](https://github.com/albercha17/Ejercicos-Beca-Babel/tree/master/Ejercicio%2014%20-%20Java%20con%20Base%20de%20datos)
+
+Ejercicio donde aplicaremos una aplicacion java con una base de datos, amplicando a su vez el modelo de capas. Este ejercicio se basa en una base de datos con diferentes coches, y una aplicacion que, utilizando dicha base de datos, hara varias acciones en ella (dar de alta, dar de baja, modificar, mostrar, filtrar...). Es una aplaicacion muy basica y la ejecucion y vista se hara todo por cosola.
 
 
