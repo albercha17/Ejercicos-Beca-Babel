@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Nombre } from '../entidades/nombre';
 import { LoginComponent } from '../login/login.component';
 
 @Component({
@@ -11,10 +12,11 @@ export class CabezeraComponent implements OnInit {
 
   registrado: boolean=false
   deshabilitadoBoton :boolean =false
-  @Input() usuario: string;
+  usuario: string;
   constructor(route:ActivatedRoute,private router:Router) {
-    console.log("Esto es "+this.usuario)
-
+    
+    this.usuario=Nombre.nombre
+    console.log("zzz "+ Nombre.nombre)
   }
   ngOnInit() {
   }

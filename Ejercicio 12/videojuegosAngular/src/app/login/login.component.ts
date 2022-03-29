@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Usuario } from '../entidades/Usuario';
 import { Videojuegos } from '../entidades/Videojuegos';
 import { Router } from '@angular/router';
+import { Nombre } from '../entidades/nombre';
 
 @Component({
   selector: 'app-login',
@@ -23,7 +24,7 @@ export class LoginComponent implements OnInit {
   mostrarError: boolean=false
   usuario : Usuario | null=null
   registrado:number=0
-
+  nombreUsuario: string;
   constructor(private router:Router) {
    }
 
@@ -34,6 +35,7 @@ export class LoginComponent implements OnInit {
    * Comprueba si el usuario y la contraseña son validos. Si no es valido, muestra el error por pantalla
    */
   public login(){
+
     var encontradoUsuario=false;
     var encontradaContrasena=false;
     for(var i=0;i<this.listaUsuarios.length;i++){
@@ -44,8 +46,9 @@ export class LoginComponent implements OnInit {
          this.usuario=this.listaUsuarios[i]
          console.log(this.usuario)
          this.registrado=1
+         Nombre.nombre= this.nombre;
          this.router.navigate([ '/bienvenida',this.nombre])
-         
+         console.log("El usuario es "+Nombre.nombre)
         }
       }
     }
