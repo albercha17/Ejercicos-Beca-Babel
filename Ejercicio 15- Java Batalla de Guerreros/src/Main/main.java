@@ -1,10 +1,8 @@
 package Main;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import entidades.*;
-
 public class main {
 	static ArrayList<Personajes> listaP= new ArrayList<>();
 	static ArrayList<Arma> listaA= new ArrayList<>();
@@ -153,7 +151,7 @@ public class main {
 		 if(time!=0)
 			 time+=x;
 		 try {
-	            Thread.sleep(time*100);
+	            Thread.sleep(time*1000);
 	         } catch (Exception e) {
 	            System.out.println(e);
 	         }
@@ -257,6 +255,11 @@ public class main {
 		Personajes p2=personajesDuelo.get(1);
 		System.out.println("En una época antigua...");
 		esperar(-1);
+		 try {
+	            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+	        } catch (Exception e) {
+	            /*No hacer nada*/
+	        }
 		  System.out.println("En un reino muy muy lejano...");
 		  esperar(-1);
 		  System.out.println("Una batalla esta apunto de empezar!");
@@ -293,5 +296,5 @@ public class main {
 		  System.out.println("\n\n\n\n\n");
 	}
 	
-	
+	 
 }
