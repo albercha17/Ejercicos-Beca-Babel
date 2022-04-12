@@ -1,0 +1,32 @@
+<div id="caja">
+
+
+<h1>LISTA DE VIDEOJUEGOS</h1>
+<hr>
+
+<div class="cajitas" id="lista">  
+        <h3>Lista de videojuegos de {{user}}</h3>
+        <hr>
+        <li *ngFor="let h of listaVideojuegos2" (mouseover)="seleccionar(h)" (mouseleave)="borrarInfo()">
+            <div class="juego">
+                <img [src]=h.foto class="fotoIcono"><p class="videojuegos">{{ h.id }}. {{ h.nombre }}</p></div>
+            
+            <br><br>
+        </li>
+        <li *ngIf="listaVideojuegos2.length==0">
+            <p> NO SE HAN ENCONTRADO VIDEOJUEGOS</p>
+        </li>
+</div>
+
+<div id="infoVideojuego" *ngIf="mostrarInfo">
+    <h2>INFORMACION DEL VIDEOJUEGO</h2>
+    <hr>
+    <p>Nombre: {{nombre}}</p>
+    <p>Compañia: {{compania}}</p>
+    <p>Valoración media: {{valoracion}}</p>
+    <img [src]="foto" id="foto">
+</div>
+
+</div>
+
+

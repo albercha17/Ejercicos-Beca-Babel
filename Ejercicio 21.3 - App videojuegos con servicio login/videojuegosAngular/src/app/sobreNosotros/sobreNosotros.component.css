@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    color: black;
+    color:rgb(254, 254, 255)
+}
+a:hover{
+    color:rgb(130, 0, 182)
+}
+.tarjeta{
+    margin-top: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#QS{
+
+    background-color: rgb(224, 125, 58);
+    color: aliceblue;
+}
+#QO{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

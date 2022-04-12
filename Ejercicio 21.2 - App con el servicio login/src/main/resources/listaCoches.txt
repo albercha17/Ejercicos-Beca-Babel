@@ -1,0 +1,4 @@
+Coche{id=4, matricula=5034DSF, marca= kia, modelo=4, kilometros= 400 }
+Coche{id=8, matricula=1234AAA, marca= q, modelo=r, kilometros= 1000 }
+Coche{id=9, matricula=1234BBB, marca= kia, modelo=estandar, kilometros= 0 }
+Coche{id=11, matricula=3456789, marca= 6, modelo=7, kilometros= 66 }

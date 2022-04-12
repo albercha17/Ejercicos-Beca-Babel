@@ -1,0 +1,12 @@
+
+<div id="cuadro">
+  <h2>Inicio de sesion</h2>
+  
+  <label for="nombre">Nombre de usuario</label><br>
+  <input id="nombre" [(ngModel)]="nombre"/><br>
+  <label for="password">Contraseña</label><br>
+  <input id="password" type="password" [(ngModel)]="password"/>
+  <br>
+  <button (click)="login()">Loguearse</button><br>
+  <span class="error" *ngIf="mostrarError">{{error}}</span><br><br>
+</div>
